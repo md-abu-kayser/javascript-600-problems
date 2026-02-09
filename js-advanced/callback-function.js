@@ -9,9 +9,11 @@ function executeCallback(callback) {
   console.log(result);
 }
 
-executeCallback(greet); // Output: "Hello, Alice!"
+executeCallback(greet);
 
-// problem solved------------------------------>394
+// Output: "Hello, Alice!"
+
+// problem solved------------------------------->394
 // Function with object and callback
 function processObject(obj, callback) {
   for (let key in obj) {
@@ -39,8 +41,9 @@ function numberProcessor(number, callback) {
 }
 
 numberProcessor(20, (result) => {
-  console.log(`Result: ${result}`); // Output: "Result: 5"
+  console.log(`Result: ${result}`);
 });
+// Output: "Result: 5"
 
 // problem solved------------------------------>396
 //  Function calling another function internally
