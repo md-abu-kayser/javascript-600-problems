@@ -10,7 +10,7 @@ This folder contains advanced, carefully curated JavaScript examples and problem
 - Shows real-world patterns: async control flow, streams, generators, functional composition, module boundaries, and performance trade-offs.
 - Useful for technical interviews, code reviews, and training sessions where compact, well-organized examples convey skill.
 
-## Topics covered---> high level
+## Topics covered - high level
 
 - Advanced functions: currying, partial application, higher-order functions, decorators
 - Asynchronous patterns: Promises, async/await, cancellation, concurrency primitives, scheduling
@@ -116,12 +116,11 @@ If you'd like, I can scaffold tests and a `package.json` for this repo.
 
 ### Contact and Maintainer
 
-**Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
-**Name:** Md Abu Kayser - Full-Stack Engineer
-
+- **Name:** Md Abu Kayser - Full-Stack Engineer
+- **Problem:** _JS Advanced - Deep Dives and Practical Patterns_
+- **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
 - **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 - **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
-- **Problem:** _JS Advanced - Deep Dives and Practical Patterns_
 
 If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
 
