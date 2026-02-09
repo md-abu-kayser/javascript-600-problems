@@ -1,6 +1,6 @@
 // some string variable
 
-// problem solved------------------>15
+// problem solved------------------------->15
 const name = "Muhammad Kawser";
 console.log(name);
 
@@ -21,7 +21,7 @@ const movieOfTheYear = "Captain America";
 console.log(movieOfTheYear);
 
 // problem solved------------------------->20
-const hobby = "cricket, football, coding, programming";
+const hobby = "cricket, football, coding, programming, hacker";
 console.log(hobby);
 
 // problem solved------------------------->21
