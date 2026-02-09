@@ -1,8 +1,5 @@
 # JavaScript - 600+ Problems Solved
 
-![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen)
-![Examples](https://img.shields.io/badge/examples-600%2B-blue)
-
 A curated collection of concise, well-documented JavaScript solutions and learning exercises spanning foundational to advanced topics. Organized into two focused workspaces:
 
 - `js-basic` - core language fundamentals and small practice problems (arrays, functions, loops, objects, basics of scope and closure).
@@ -31,7 +28,7 @@ This repository is built to teach, demonstrate engineering judgment, and serve a
 Run any example from the repository root. Example using PowerShell:
 
 ```powershell
-cd c:\projects\javascript-600-problems-solved\js-basic
+cd c:\projects\javascript-600-problems\js-basic
 node array.js
 
 cd ..\js-advanced
@@ -40,7 +37,7 @@ node some-advanced-file.js
 
 Replace `array.js` or `some-advanced-file.js` with any file from the respective directories. Most files print a short demonstration to the console.
 
-## Project structure---> top-level
+## Project structure - top-level
 
 - `js-basic/` - beginner and intermediate problems; single-concept files ideal for learning and interviews.
 - `js-advanced/` - advanced examples and deep-dive topics with performance notes and defensive patterns.
@@ -108,12 +105,11 @@ Tell me which scaffold(s) you want and I’ll add them.
 
 ### Contact and Maintainer
 
-**Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
-**Name:** Md Abu Kayser - Full-Stack Engineer
-
+- **Name:** Md Abu Kayser - Full-Stack Engineer
+- **Problem:** _javascript-600-problems_
+- **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
 - **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 - **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
-- **Problem:** _javascript-600-problems-solved_
 
 If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
 
