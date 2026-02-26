@@ -1,5 +1,11 @@
 # JavaScript - 600+ Problems Solved
 
+<!-- MIT License -->
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+
+
+
 A curated collection of concise, well-documented JavaScript solutions and learning exercises spanning foundational to advanced topics. Organized into two focused workspaces:
 
 - `js-basic` - core language fundamentals and small practice problems (arrays, functions, loops, objects, basics of scope and closure).
@@ -129,3 +135,5 @@ It’s designed to be **clean, well-structured**, and **pleasant to explore** - 
 ---
 
 **Thank you for exploring - basic and advanced, focused exercises are a powerful way to master JavaScript and demonstrate engineering judgment.**
+
+---
