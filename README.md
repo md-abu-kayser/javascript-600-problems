@@ -122,7 +122,7 @@ Tell me which scaffold(s) you want and I’ll add them.
 ### Contact & Maintainer
 
 - **Name:** Md Abu Kayser - Full-Stack Engineer
-- **Problem:** _javascript-600-problems_
+- **js-problems-project:** _javascript-600-problems_
 - **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
 - **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
 - **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
