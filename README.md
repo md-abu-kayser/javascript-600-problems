@@ -15,12 +15,31 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Problems-600%2B-2563EB?style=for-the-badge" alt="600+ Problems" />
-  <img src="https://img.shields.io/badge/JavaScript-ES5%2FES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827" alt="JavaScript ES5 ES6+" />
-  <img src="https://img.shields.io/badge/ECMAScript-262-7A0BC0?style=for-the-badge" alt="ECMAScript 262" />
-  <img src="https://img.shields.io/badge/Node.js-LTS-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js LTS" />
-  <img src="https://img.shields.io/badge/Learning-Problem%20Solving-0F766E?style=for-the-badge" alt="Problem Solving" />
-  <img src="https://img.shields.io/badge/License-MIT-16A34A?style=for-the-badge" alt="MIT License" />
+
+  <a href="#problem-solving-challenges">
+    <img src="https://img.shields.io/badge/Problems-600%2B-2563EB?style=for-the-badge" alt="600+ Problems" />
+  </a>
+
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+    <img src="https://img.shields.io/badge/JavaScript-ES5%2FES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827" alt="JavaScript ES5 ES6+ Documentation" />
+  </a>
+
+  <a href="https://tc39.es/ecma262/" target="_blank">
+    <img src="https://img.shields.io/badge/ECMAScript-262-7A0BC0?style=for-the-badge" alt="ECMAScript 262 Specification" />
+  </a>
+
+  <a href="https://nodejs.org/docs/latest/api/" target="_blank">
+    <img src="https://img.shields.io/badge/Node.js-LTS-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js LTS Documentation" />
+  </a>
+
+  <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting" target="_blank">
+    <img src="https://img.shields.io/badge/Learning-Problem%20Solving-0F766E?style=for-the-badge" alt="JavaScript Problem Solving" />
+  </a>
+
+  <a href="https://opensource.org/license/mit" target="_blank">
+    <img src="https://img.shields.io/badge/License-MIT-16A34A?style=for-the-badge" alt="MIT License" />
+  </a>
+
 </p>
 
 <p align="center">
@@ -1650,7 +1669,7 @@ See the [`LICENSE`](./LICENSE) file for the complete license text.
 </p>
 
 <p align="center">
-  Full-Stack Developer
+  Full-Stack Enginner
 </p>
 
 <p align="center">
