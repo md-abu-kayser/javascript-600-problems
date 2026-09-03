@@ -54,6 +54,852 @@
 
 ---
 
+# Overview
+
+This repository contains **600+ JavaScript problems, exercises, and focused examples** organized into two learning workspaces:
+
+```text
+javascript-600-problems/
+│
+├── js-basic/
+│   └── Foundational JavaScript concepts and exercises
+│
+└── js-advanced/
+    └── Advanced language behavior and practical patterns
+```
+
+The repository is intentionally organized as a progression:
+
+```text
+JavaScript Fundamentals
+        ↓
+Core Language Patterns
+        ↓
+Problem Solving
+        ↓
+Advanced Language Behavior
+        ↓
+Runtime Understanding
+        ↓
+Performance & Engineering Judgment
+```
+
+Rather than presenting JavaScript as a collection of syntax rules, this repository uses small executable examples to encourage developers to **read, run, modify, debug, and explain** code.
+
+---
+
+# Repository Purpose
+
+This repository serves three primary purposes.
+
+## 1. Deliberate Practice
+
+Build JavaScript proficiency through repeated implementation.
+
+## 2. Technical Reference
+
+Provide small examples that can be opened and executed independently.
+
+## 3. Engineering Demonstration
+
+Show how JavaScript knowledge can progress from basic syntax toward deeper runtime behavior, performance awareness, and maintainable programming patterns.
+
+---
+
+# Why 600+ Problems?
+
+The problem count is useful, but it is not the primary goal.
+
+The real goal is to build a progression from:
+
+```text
+Knowing Syntax
+      ↓
+Understanding Behavior
+      ↓
+Solving Problems
+      ↓
+Recognizing Patterns
+      ↓
+Explaining Trade-offs
+      ↓
+Making Better Engineering Decisions
+```
+
+A large collection becomes valuable when the examples remain:
+
+- Focused
+- Readable
+- Runnable
+- Understandable
+- Consistent
+
+---
+
+# Learning Philosophy
+
+This repository follows a **learn-by-doing** workflow.
+
+```text
+Read
+ ↓
+Predict
+ ↓
+Run
+ ↓
+Observe
+ ↓
+Modify
+ ↓
+Break
+ ↓
+Debug
+ ↓
+Rewrite
+ ↓
+Explain
+```
+
+The goal is not to memorize the implementation.
+
+The goal is to understand the behavior well enough to recreate it independently.
+
+---
+
+# Repository Architecture
+
+The collection is split into two levels.
+
+```text
+                     JavaScript
+                         │
+             ┌───────────┴───────────┐
+             ▼                       ▼
+         JS Basic                JS Advanced
+             │                       │
+             ▼                       ▼
+       Language Core          Runtime & Patterns
+             │                       │
+             └───────────┬───────────┘
+                         ▼
+                 Stronger JavaScript
+                   Fundamentals
+```
+
+---
+
+# JS Basic
+
+## Purpose
+
+`js-basic` focuses on the core JavaScript language.
+
+It is intended for:
+
+- Beginners building fundamentals
+- Developers refreshing JavaScript knowledge
+- Interview preparation
+- Developers transitioning toward React/Node.js/TypeScript
+
+---
+
+## Core Topics
+
+### Variables & Data Types
+
+- `var`
+- `let`
+- `const`
+- Strings
+- Numbers
+- Booleans
+- `null`
+- `undefined`
+- Objects
+- Arrays
+- Primitive vs reference behavior
+
+---
+
+### Operators & Expressions
+
+Examples explore:
+
+- Arithmetic operators
+- Comparison operators
+- Logical operators
+- Assignment operators
+- Ternary expressions
+- Truthy/falsy values
+
+---
+
+### Control Flow
+
+Examples include:
+
+```text
+if
+if / else
+else if
+switch
+```
+
+The goal is to understand control flow rather than simply memorize syntax.
+
+---
+
+### Loops
+
+Common iteration patterns include:
+
+```text
+for
+for...of
+for...in
+while
+do...while
+```
+
+---
+
+### Functions
+
+Examples cover:
+
+- Function declarations
+- Function expressions
+- Arrow functions
+- Parameters
+- Return values
+- Function scope
+- Reusable functions
+
+---
+
+### Arrays
+
+Examples explore common array operations including:
+
+```text
+map
+filter
+reduce
+find
+forEach
+includes
+indexOf
+push
+pop
+```
+
+The collection encourages understanding the difference between:
+
+```text
+Mutation
+   vs
+Transformation
+```
+
+---
+
+### Objects
+
+Examples cover:
+
+- Property access
+- Property assignment
+- Property deletion
+- Object iteration
+- `Object.keys()`
+- `Object.values()`
+- `Object.entries()`
+- `for...in`
+
+---
+
+### Scope & Closures
+
+The foundational collection introduces:
+
+```text
+Global Scope
+     ↓
+Function Scope
+     ↓
+Block Scope
+     ↓
+Lexical Scope
+```
+
+These concepts provide the basis for understanding closures and more advanced JavaScript behavior.
+
+---
+
+# JS Advanced
+
+## Purpose
+
+`js-advanced` moves from language fundamentals toward deeper runtime behavior and practical engineering patterns.
+
+It is intended for developers who want to understand JavaScript beyond basic syntax.
+
+---
+
+## Advanced Topics
+
+### Advanced Functions
+
+Examples can explore:
+
+- Higher-order functions
+- Currying
+- Partial application
+- Function composition
+- Decorator-like patterns
+- Closures
+
+---
+
+### Asynchronous JavaScript
+
+Topics include:
+
+- Promises
+- `async/await`
+- Sequential execution
+- Parallel execution
+- Concurrency control
+- Cancellation concepts
+- Scheduling
+
+Conceptual comparison:
+
+```text
+Sequential
+
+A → B → C
+
+
+Parallel
+
+A ─┐
+B ─┼──→ Complete
+C ─┘
+
+
+Limited Concurrency
+
+A ─┐
+B ─┘
+    ↓
+C ─┐
+D ─┘
+```
+
+The focus is on understanding both behavior and trade-offs.
+
+---
+
+### Event Loop
+
+Advanced examples can demonstrate:
+
+- Call stack
+- Tasks
+- Microtasks
+- Timers
+- Promise callbacks
+- Scheduling order
+
+Conceptually:
+
+```text
+JavaScript
+     ↓
+Call Stack
+     ↓
+Runtime APIs
+     ↓
+Microtask Queue
+     ↓
+Task Queue
+     ↓
+Event Loop
+```
+
+The goal is to make asynchronous behavior observable rather than purely theoretical.
+
+---
+
+### Prototypes
+
+Examples explore JavaScript's object model:
+
+```text
+Object
+  ↓
+Prototype
+  ↓
+Prototype
+  ↓
+null
+```
+
+Topics include:
+
+- Prototype chains
+- Inheritance
+- Delegation
+- Classes
+- Method lookup
+
+---
+
+### Generators & Iterators
+
+Examples demonstrate:
+
+- Iterators
+- Generator functions
+- Lazy evaluation
+- Incremental processing
+- Memory-aware iteration
+
+Instead of:
+
+```text
+Create everything
+       ↓
+Store everything
+       ↓
+Process
+```
+
+lazy evaluation can use:
+
+```text
+Produce
+  ↓
+Process
+  ↓
+Produce next
+  ↓
+Process next
+```
+
+---
+
+### Memory & Performance
+
+Performance-oriented examples focus on:
+
+- Time complexity
+- Space complexity
+- Allocation behavior
+- Lazy data processing
+- Algorithmic trade-offs
+- Runtime observations
+
+Where appropriate:
+
+```text
+O(n)
+vs
+O(n²)
+```
+
+is discussed in the context of input size and workload.
+
+---
+
+### Modules
+
+Advanced examples may examine:
+
+- ESM
+- CommonJS
+- Import/export boundaries
+- Module organization
+- Bundling concepts
+- Tree-shaking implications
+
+---
+
+# Problem Design Philosophy
+
+Every example should ideally answer:
+
+```text
+What is the problem?
+        ↓
+What is the expected behavior?
+        ↓
+What is the simplest correct solution?
+        ↓
+Why does it work?
+        ↓
+What are the trade-offs?
+```
+
+---
+
+# One Concept Per File
+
+The repository favors small, focused files.
+
+Instead of:
+
+```text
+all-javascript-topics.js
+```
+
+prefer:
+
+```text
+array-map.js
+function-return.js
+closure-counter.js
+event-loop.js
+async-concurrency.js
+```
+
+This makes examples:
+
+- Easier to understand
+- Easier to run
+- Easier to review
+- Easier to test
+- Easier to reference later
+
+---
+
+# File Naming Convention
+
+Use descriptive **kebab-case** names.
+
+Examples:
+
+```text
+array-push-pop.js
+array-map.js
+function-return.js
+for-of-loop.js
+object-entries.js
+closure-counter.js
+async-await.js
+async-concurrency.js
+event-loop-microtasks.js
+generator-lazy-iteration.js
+```
+
+Avoid ambiguous names:
+
+```text
+test.js
+example2.js
+new.js
+final.js
+temp.js
+```
+
+---
+
+# Runnable Example Model
+
+A typical file should be executable directly with Node.js.
+
+Example:
+
+```js
+function add(a, b) {
+  return a + b;
+}
+
+const result = add(10, 20);
+
+console.log(result);
+```
+
+Run it:
+
+```bash
+node example.js
+```
+
+The simplicity is intentional.
+
+---
+
+# Engineering Contract
+
+The repository follows a lightweight contract.
+
+## Inputs
+
+Examples may:
+
+- Accept function arguments
+- Define local values
+- Read small fixtures
+- Demonstrate runtime behavior
+
+## Outputs
+
+Examples may:
+
+- Return values
+- Print console output
+- Demonstrate language behavior
+
+## Guarantees
+
+Examples should prioritize:
+
+```text
+Correctness
+    >
+Readability
+    >
+Cleverness
+```
+
+Unless performance itself is the subject of the example.
+
+---
+
+# Edge Cases
+
+When modifying problems, consider:
+
+### Empty Input
+
+```text
+""
+[]
+{}
+```
+
+### Nullish Input
+
+```text
+null
+undefined
+```
+
+### Boundary Values
+
+```text
+0
+1
+-1
+```
+
+### Large Input
+
+Consider how the solution scales.
+
+### Errors
+
+For advanced examples:
+
+```text
+Synchronous errors
++
+Promise rejection
++
+Cancellation
++
+Cleanup
+```
+
+should be considered where relevant.
+
+---
+
+# Performance Awareness
+
+Performance claims should not be made purely from intuition.
+
+When comparing implementations, document:
+
+- Input size
+- Runtime
+- Environment
+- Measurement method
+- Number of iterations
+- Relevant memory considerations
+
+Example:
+
+```text
+Environment:
+Node.js LTS
+
+Dataset:
+100,000 elements
+
+Comparison:
+O(n) vs O(n²)
+
+Metric:
+Average execution time
+```
+
+---
+
+# Code Quality Standards
+
+The repository aims to maintain:
+
+```text
+✓ Meaningful names
+✓ Small functions
+✓ Focused examples
+✓ Minimal dependencies
+✓ Clear comments
+✓ Predictable output
+✓ Isolated side effects
+✓ Explicit trade-offs
+✓ Readable implementation
+```
+
+---
+
+# Comments & Documentation
+
+Comments should explain **why**, not simply repeat the code.
+
+Avoid:
+
+```js
+// Loop through array
+for (...) {
+}
+```
+
+Prefer:
+
+```js
+// Process the collection once to keep the traversal linear.
+for (...) {
+}
+```
+
+---
+
+# Dependency Philosophy
+
+Core JavaScript concepts should generally be demonstrated using native JavaScript.
+
+Avoid adding external libraries when:
+
+```text
+Native JavaScript
+```
+
+is sufficient.
+
+When a dependency is genuinely necessary, document:
+
+- Why it is needed
+- What problem it solves
+- Why a native implementation was not preferred
+
+---
+
+# Getting Started
+
+## Prerequisites
+
+Recommended:
+
+- Node.js LTS
+- npm
+- Git
+- VS Code or another modern editor
+
+No frontend framework is required to execute the example files.
+
+---
+
+# Clone the Repository
+
+```bash
+git clone https://github.com/md-abu-kayser/javascript-600-problems.git
+```
+
+Navigate into the repository:
+
+```bash
+cd javascript-600-problems
+```
+
+---
+
+# Run JS Basic
+
+```bash
+cd js-basic
+```
+
+Run an example:
+
+```bash
+node array.js
+```
+
+Another example:
+
+```bash
+node function-return.js
+```
+
+---
+
+# Run JS Advanced
+
+Return to the repository root:
+
+```bash
+cd ..
+cd js-advanced
+```
+
+Then execute an example:
+
+```bash
+node async-await.js
+```
+
+or:
+
+```bash
+node event-loop.js
+```
+
+Replace the filename with any example available in the directory.
+
+---
+
+# Recommended Learning Workflow
+
+## Phase 1 — Read
+
+Open the example and understand:
+
+- Inputs
+- Variables
+- Functions
+- Control flow
+- Expected output
+
+## Phase 2 — Predict
+
+Before running the code, predict the result.
+
+## Phase 3 — Execute
+
 ```bash
 node example.js
 ```
