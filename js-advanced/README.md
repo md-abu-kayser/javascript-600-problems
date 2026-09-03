@@ -1341,16 +1341,6 @@ The collection follows a simple rule:
 
 Advanced JavaScript is most valuable when it helps developers make better engineering decisions—not when it merely makes code look sophisticated.
 
----
-
-# License
-
-This project is licensed under the **MIT License**.
-
-See the [`LICENSE`](./LICENSE) file for the complete license text.
-
----
-
 # Maintainer
 
 <p align="center">
