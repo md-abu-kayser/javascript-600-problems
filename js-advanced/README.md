@@ -11,12 +11,31 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-ES2015%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827" alt="JavaScript ES2015+" />
-  <img src="https://img.shields.io/badge/Node.js-LTS-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js LTS" />
-  <img src="https://img.shields.io/badge/Advanced-JavaScript-2563EB?style=for-the-badge" alt="Advanced JavaScript" />
-  <img src="https://img.shields.io/badge/Async%20%26%20Concurrency-Practical-7C3AED?style=for-the-badge" alt="Async and Concurrency" />
-  <img src="https://img.shields.io/badge/Performance-Aware-059669?style=for-the-badge" alt="Performance Aware" />
-  <img src="https://img.shields.io/badge/License-MIT-16A34A?style=for-the-badge" alt="MIT License" />
+
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+    <img src="https://img.shields.io/badge/JavaScript-ES2015%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827" alt="JavaScript ES2015+ Documentation" />
+  </a>
+
+  <a href="https://nodejs.org/docs/latest/api/" target="_blank">
+    <img src="https://img.shields.io/badge/Node.js-LTS-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js LTS Documentation" />
+  </a>
+
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">
+    <img src="https://img.shields.io/badge/Advanced-JavaScript-2563EB?style=for-the-badge" alt="Advanced JavaScript Guide" />
+  </a>
+
+  <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Async_JS" target="_blank">
+    <img src="https://img.shields.io/badge/Async%20%26%20Concurrency-Practical-7C3AED?style=for-the-badge" alt="Async and Concurrency Documentation" />
+  </a>
+
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Memory_management" target="_blank">
+    <img src="https://img.shields.io/badge/Performance-Aware-059669?style=for-the-badge" alt="JavaScript Performance and Memory Management" />
+  </a>
+
+  <a href="https://opensource.org/license/mit" target="_blank">
+    <img src="https://img.shields.io/badge/License-MIT-16A34A?style=for-the-badge" alt="MIT License" />
+  </a>
+
 </p>
 
 <p align="center">
