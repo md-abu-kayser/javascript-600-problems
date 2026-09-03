@@ -1358,7 +1358,7 @@ See the [`LICENSE`](./LICENSE) file for the complete license text.
 </p>
 
 <p align="center">
-  Full-Stack Developer
+  Full-Stack Engineer
 </p>
 
 <p align="center">
